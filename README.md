@@ -2,4 +2,4 @@
 
 接口文档：https://github.com/gothinkster/realworld/tree/master/api
 
-demo地址：https://demo.realworld.io/#/
+部署地址: "___"

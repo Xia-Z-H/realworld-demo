@@ -87,7 +87,19 @@
 								v-for="item in totalPage"
 								:key="item"
 							>
-								<a class="page-link" :href="`${profile.username}?page=${item}&tab=${tab}`">{{ item }}</a>
+								<!-- <a class="page-link" :href="`${profile.username}?page=${item}&tab=${tab}`">{{ item }}</a> -->
+								<nuxt-link
+									class="page-link"
+									:to="{
+										name: 'profile',
+										params: profile.username,
+										query: {
+											page: item,
+											tab: tab,
+										},
+									}"
+									>{{ item }}
+								</nuxt-link>
 							</li>
 						</ul>
 					</nav>

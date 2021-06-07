@@ -2,4 +2,4 @@
 
 接口文档：https://github.com/gothinkster/realworld/tree/master/api
 
-部署地址: "106.75.129.173"
+部署地址: "http://106.75.129.173:3000/"

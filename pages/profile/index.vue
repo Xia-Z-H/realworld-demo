@@ -87,8 +87,8 @@
 								v-for="item in totalPage"
 								:key="item"
 							>
-								<!-- <a class="page-link" :href="`${profile.username}?page=${item}&tab=${tab}`">{{ item }}</a> -->
-								<nuxt-link
+								<a class="page-link" :href="`${profile.username}?page=${item}&tab=${tab}`">{{ item }}</a>
+								<!-- <nuxt-link
 									class="page-link"
 									:to="{
 										name: 'profile',
@@ -99,7 +99,7 @@
 										},
 									}"
 									>{{ item }}
-								</nuxt-link>
+								</nuxt-link> -->
 							</li>
 						</ul>
 					</nav>

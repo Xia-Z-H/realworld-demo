@@ -4,4 +4,4 @@
 
 demo调试地址：https://demo.realworld.io/#/
 
-TOKEN: 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
+TOKEN: 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
